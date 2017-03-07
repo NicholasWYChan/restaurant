@@ -1,0 +1,46 @@
+/*  csci3.css */
+body {
+    background-color: black;
+    color: red;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+p {
+    max-width: 75%;
+    margin:auto;
+}
+/*pictures*/
+.introPic {
+    display:initial;    
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 25%;
+    margin: auto;
+    width: 25%;
+    }
+
+#homePic,
+#intestines,
+#whiskey,
+#event,
+#other {
+    display:none;      
+    }
+
+.menu {
+    display:auto;
+}
+
+/*Pages*/
+#intro{
+    display:initial;      
+    }   
+
+#home,
+#chef,
+#alcohol,
+#food, 
+#events,
+#retry {
+    display:none;
+    }
